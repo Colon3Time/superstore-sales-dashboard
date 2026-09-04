@@ -1,0 +1,119 @@
+{
+  "name": "Superstore Teal",
+  "dataColors": [
+    "#1B9AAA",
+    "#0E6E7C",
+    "#5FC2CE",
+    "#123F4A",
+    "#8FD6DE",
+    "#E8A33D",
+    "#6B7785",
+    "#B8C4CC"
+  ],
+  "good": "#2E9E4F",
+  "neutral": "#E8A33D",
+  "bad": "#D93A3A",
+  "minimum": "#D93A3A",
+  "center": "#F2F4F5",
+  "maximum": "#1B9AAA",
+  "null": "#EDEFF1",
+  "background": "#FFFFFF",
+  "secondaryBackground": "#F4F7F8",
+  "tableAccent": "#1B9AAA",
+  "firstLevelElements": "#1F2933",
+  "secondLevelElements": "#6B7785",
+  "thirdLevelElements": "#E3E8EB",
+  "fourthLevelElements": "#B8C4CC",
+  "textClasses": {
+    "callout": {
+      "fontSize": 28,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1F2933"
+    },
+    "title": {
+      "fontSize": 14,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1F2933"
+    },
+    "header": {
+      "fontSize": 11,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1F2933"
+    },
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI",
+      "color": "#6B7785"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#E3E8EB" } },
+            "radius": 8
+          }
+        ],
+        "visualHeader": [{ "show": false }],
+        "title": [
+          {
+            "show": true,
+            "fontColor": { "solid": { "color": "#1F2933" } },
+            "background": { "solid": { "color": "#FFFFFF" } },
+            "alignment": "left",
+            "fontSize": 13,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#F4F7F8" } },
+            "transparency": 0
+          }
+        ],
+        "outspace": [
+          {
+            "color": { "solid": { "color": "#F4F7F8" } },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": { "solid": { "color": "#1F2933" } },
+            "fontSize": 26,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": { "solid": { "color": "#6B7785" } },
+            "fontSize": 10,
+            "fontFamily": "Segoe UI"
+          }
+        ]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "lineStyles": [{ "strokeWidth": 2 }]
+      }
+    }
+  }
+}
